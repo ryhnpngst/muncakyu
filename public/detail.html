@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuncakYu - Details </title>
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="frontend/styles/main.css">
+    <link rel="stylesheet" href="frontend/styles/detail.css">
+</head>
+<body>
+    <!--NavBar-->
+    <div class="container">
+        <nav class="row navbar navbar-expand-lg navbar-light bg-white">
+
+            <a href="#" class="navbar-brand">
+                <img src="frontend/images/logo_MuncakYu.png" alt="Logo MuncakYu">
+            </a>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navb">
+                <ul class="navbar-nav ml-auto mr-3">
+                    <li class="nav-item mx-md-2">
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Destinasi Pendakian</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Peralatan</a>
+                    </li>
+                    <li class="nav-item mx-md-2">
+                        <a href="#" class="nav-link">Persiapan</a>
+                    </li>
+                </ul>
+
+                <!--Mobile Button-->
+                <form class="form-inline d-sm-block d-md-none">
+                    <button class="btn btn-login my-2 my-sm-0">
+                        Masuk
+                    </button>
+                </form>
+
+                <!--Desktop Button-->
+                <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+                    <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                        Masuk
+                    </button>
+                </form>
+
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section class="section-details-header"></section>
+            <section class="section-details-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col p-0">
+                            <nav>
+                                <ol class="breadcrumb">
+                                    <li class="breadcrumb-item">
+                                        Destinasi Pendakian
+                                    </li>
+                                    <li class="breadcrumb-item active">
+                                        Details
+                                    </li>
+                                </ol>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="card card-details">
+                            <h1>
+                                Gunung Semeru
+                            </h1>
+                            <p>
+                                Jawa Timur
+                            </p>
+
+                            <div class="gallery">
+                                <div class="xzoom-container">
+                                    <img src="frontend/images/details.jpg" class="xzoom" id="xzoom-default"
+                                    xoriginal="frontend/images/details.jpg">
+                                </div>
+                                <div class="xzoom-thumbs">
+                                    <a href="frontend/images/details.jpg">
+                                        <img src="frontend/images/details.jpg" class="xzoom-galery"
+                                        width="200" xpreview="frontend/images/details.jpg">
+                                    </a>
+                                    <a href="frontend/images/ranu.jpg">
+                                        <img src="frontend/images/Mask Group 17.jpg" class="xzoom-galery"
+                                        width="200" xpreview="frontend/images/ranu.jpg">
+                                    </a>
+                                    <a href="frontend/images/sabana.jpg">
+                                        <img src="frontend/images/Mask Group 18.jpg" class="xzoom-galery"
+                                        width="200" xpreview="frontend/images/Mask Group 18.jpg">
+                                    </a>
+                                    <a href="frontend/images/tracking.jpg">
+                                        <img src="frontend/images/Mask Group 19.jpg" class="xzoom-galery"
+                                        width="200" xpreview="frontend/images/Mask Group 19.jpg">
+                                    </a>
+                                </div>
+                            </div>
+                            <h2>
+                                Info Pendakian
+                            </h2>
+                            <p>
+                                Gunung Semeru merupakan gunung tertinggi di Pulau Jawa dan  masuk dalam jajaran 7 summit Indonesia,
+                                dengan puncaknya Mahameru, 3.676 meter dari permukaan laut (mdpl). Gunung Semeru juga merupakan gunung
+                                berapi tertinggi ketiga di Indonesia setelah Gunung Kerinci di Sumatra dan Gunung Rinjani di Nusa Tenggara Barat.
+                            </p>
+                            <p>
+                                Ada dua jalur pendakian Gunung Semeru yaitu jalur pendakian via Ranu Pane yang merupakan jalur pendakian
+                                umum dan jalur pendakian via Ayek-ayek yang tidak dibuka untuk umum karena di kawasannya masih banyak
+                                terlihat hewan liar yang dilindungi.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="section-footer border-top">
+        <div class="container-fluid">
+            <div class="row border-top justify-content-center align-item-center pt-4">
+                <div class="text-copy col-auto">
+                    2021 Copyright MuncakYu • All rights reserved • Made in Cilacap
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.6.0.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.zoom, .xzoom-gallery').xzoom({
+                zoomWidth: 500,
+                title: false,
+                tint: #333,
+                Xoffset: 15
+            });
+        });
+    </script>
+</body>
+</html>

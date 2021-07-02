@@ -1,0 +1,208 @@
+body{
+    background-color: #181818;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: Light;
+}
+
+// NavBar
+.navbar-brand{
+    img{
+        max-height: 40px;
+    }
+}
+
+.navbar-light{
+    .navbar-nav{
+        .nav-link{
+            color: #0C2135;
+
+            &.active{
+                font-weight: bold;
+                color: #0C2135 !important;
+            }
+        }
+    }
+}
+
+.btn-navbar-right{
+    margin-top: -10px !important;
+    margin-bottom: -8px !important;
+    margin-right: -18px !important;
+
+    height: 70px;
+    border-radius: 0;
+}
+
+.btn-login{
+    background-color: #0C2135;
+    color: #FFFFFF;
+
+    &:hover{
+        background-color: #14385A;
+        color: #FFFFFF;
+    }
+}
+
+// Header
+header{
+    background-image: url('../images/Group\ 5.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: 330px;
+    padding-left: 205px;
+    padding-bottom: 80px;
+    margin-top: -70px;
+}
+
+.hero-title{
+    h1{
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 30px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.btn-explore-now{
+    color: #FFFFFF;
+    background-color: #F7520C;
+    font-size: 20px;
+}
+
+// Popular
+.section-popular{
+    margin-top: 70px;
+    .section-popular-heading{
+        color: #FFFFFF;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 25px;
+    }
+}
+
+.section-popular-content{
+    margin-top: 70px;
+    .section-popular-gunung{
+        .card-gunung{
+            min-height: 380px;
+            background-color:  #D9DDE6;
+            color: #FFFFFF;
+            background-size: cover;
+            
+            a{
+                color: #FFFFFF;
+                text-decoration: none;
+            }
+            .gunung-nama{
+                font-size: 20px;
+                font-weight: 400;
+                margin: 336px 0 20px 0;
+            }
+        }
+    }
+}
+
+//Inspirasi
+.section-inspirasi{
+    margin-top: 100px;
+    .section-inspirasi-heading{
+        color: #FFFFFF;
+        font-family: 'Merriweather', serif;
+        font-weight: bold;
+        font-size: 25px;
+
+
+    }
+}
+
+.section-inspirasi-content{
+    margin-top: 70px;
+    .section-inspirasi-pendakian{
+        .card-inspirasi{
+            min-height: 360px;
+            background-color:  #D9DDE6;
+            color: #FFFFFF;
+            background-size: cover;
+            border-radius: 25px;
+            
+            .logo-instagram{
+                padding-top: 8px;
+                padding-right: 8px;
+            }
+        }
+    }
+    .container{
+        margin-top: 20px;
+    }
+}
+
+.section-footer{
+    color: #FFFFFF !important;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.section-details-header{
+    min-height: 310px;
+    background-color: #181818;
+    margin-top: -70px;
+}
+
+.section-details-content{
+    margin-top: -210px;
+    min-height: 100vh;
+    .breadcrumb{
+        background-color: transparent;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .breadcrumb-item{
+        color: #FFFFFF;
+        &.active{
+            font-weight: bold;
+            color: #ffffff;
+        }
+    }
+    .card-details{
+        padding: 30px;
+        color: #0C2135;
+    
+        h1{
+            font-size: 26px;
+        }
+    
+        h2{
+            font-size: 20px;
+        }
+    
+        p{
+            font-size: 18px;
+        }
+    }
+    .gallery{
+        .xzoom-container{
+            display: block;
+
+            .xzoom{
+                width: 100%;
+                box-shadow: none;
+                margin-bottom: 30px;
+            }
+
+            .xactive{
+                border: 4px solid #181818;
+                box-shadow: none;
+            }
+
+
+        }
+        
+    }
+}
+
+
+
